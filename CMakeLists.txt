@@ -2,6 +2,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(PPSSPP)
 
+
 #This is supposed to work but doesn't!
 if(NOT ANDROID)
 	set(CMAKE_CXX_STANDARD 11)

@@ -61,6 +61,7 @@ typedef void (* CoreStopRequestFunc)();
 void Core_ListenStopRequest(CoreStopRequestFunc callback);
 
 bool Core_IsStepping();
+bool test();
 
 bool Core_IsActive();
 bool Core_IsInactive();
